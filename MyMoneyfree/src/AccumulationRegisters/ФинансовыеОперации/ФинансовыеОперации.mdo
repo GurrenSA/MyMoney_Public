@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a41a05-94f6-4110-bf05-f32513f02c76">
+  <producedTypes>
+    <selectionType typeId="c87686d0-eb16-45f8-b829-8ac9566420d6" valueTypeId="6895da96-a93f-47aa-a864-3990b723efb2"/>
+    <listType typeId="ade7fb11-8249-467f-9bab-6098e95a06cb" valueTypeId="e2d1882f-d766-4bcf-bb28-d397429bef60"/>
+    <managerType typeId="074bd7e4-4c20-4e7c-a8ce-cf1fc8e5d3f1" valueTypeId="8ffe5f35-bcd8-49c5-9ca1-6d48dc34bce3"/>
+    <recordSetType typeId="5acc72b4-3eff-470d-a3f3-4334c896fa1a" valueTypeId="684c9da5-37e0-4eef-8623-8c0ff0d7717c"/>
+    <recordKeyType typeId="50662429-44e9-422e-8f74-abcfdb4b183e" valueTypeId="a4b15bcd-64e6-4b8e-8e2d-70d789f86ad2"/>
+    <recordType typeId="c9b106b8-d18b-4af0-b3b2-22be9facae59" valueTypeId="a91647a0-652f-48e3-8088-5b5454ce66f3"/>
+  </producedTypes>
+  <name>ФинансовыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="dd403ed3-72ea-44e6-b83d-93728891f3f6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b56cd55b-b287-4c70-aa3b-1ea2ba58164f">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.События</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7e1fc2d4-5d47-42e9-a8b6-789206a94e07">
+    <name>Друг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Друг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Друзья</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="051d2807-d75e-4d18-9be9-4df986f6514f">
+  <name>ПодсистемаФинансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема финансы</value>
+  </synonym>
+</mdclass:CommonPicture>

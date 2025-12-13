@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab04c130-52db-4f46-a76b-19710ebc4532">
+  <producedTypes>
+    <objectType typeId="5a3f1335-7900-4081-a9e2-a7e52007c1b6" valueTypeId="187d1262-8314-4dc0-8a4d-7e811cfdc0b5"/>
+    <managerType typeId="0881306e-8de7-4b0a-808e-6d5339302516" valueTypeId="f8f5b3e2-cf4c-40c8-914d-ff07c84ed423"/>
+  </producedTypes>
+  <name>СколькоДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сколько денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СколькоДенег.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f035b6ef-9c3d-4d79-ada3-10b2d1280b53">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

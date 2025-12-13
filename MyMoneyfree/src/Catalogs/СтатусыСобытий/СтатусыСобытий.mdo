@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="896e99f0-22ca-413d-9940-3b93e6134f21">
+  <producedTypes>
+    <objectType typeId="df18ceb3-5a5b-4830-8754-b2c8252b20d2" valueTypeId="9e8c7fc6-2f72-4f31-91d7-e0e2f78fe521"/>
+    <refType typeId="76175c50-35d1-4dc3-b46e-aa0d26a7be86" valueTypeId="dae2e11c-ae1a-4e03-bb8e-50874c541f73"/>
+    <selectionType typeId="7773be0b-81fd-4a75-aa12-402cb89c05da" valueTypeId="445ce103-a711-438a-a0e0-1905e8dc0379"/>
+    <listType typeId="9977b2dd-4e4b-4a53-93b9-a6ff925c88da" valueTypeId="05b304c7-bb9f-4cee-8647-044ae3cc7112"/>
+    <managerType typeId="7c987cd6-0513-4cad-8925-10d8accbac33" valueTypeId="46ef5fb1-c41d-4e19-8977-8aa4b53c6e10"/>
+  </producedTypes>
+  <name>СтатусыСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы событий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыСобытий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатусыСобытий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

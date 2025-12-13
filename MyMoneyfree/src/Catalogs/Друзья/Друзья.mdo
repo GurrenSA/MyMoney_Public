@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9634e96-816e-4dd0-97e5-2fb7ae5c5476">
+  <producedTypes>
+    <objectType typeId="ad3607a1-2ab0-4fc2-96d4-f173cecc5741" valueTypeId="a035af2f-963f-4f69-969b-624ed7aa14cd"/>
+    <refType typeId="9d5f1d05-cc16-4096-a51b-be646efc969b" valueTypeId="28668f75-068d-4b8a-8c63-d78fa46189dd"/>
+    <selectionType typeId="b0ef8354-6f50-466d-bb8d-1273c9415ac2" valueTypeId="b97ce6c3-3ce4-402d-b3b9-0984d018b459"/>
+    <listType typeId="fdd27906-9f7d-411a-9f58-40c48521d4ef" valueTypeId="efc41790-4de5-411f-842f-56b9fac29157"/>
+    <managerType typeId="4e5e8cf5-8faf-4599-9f6d-42508cb5a8cb" valueTypeId="1d353814-ee13-4429-93f4-2e5039f32249"/>
+  </producedTypes>
+  <name>Друзья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Друзья</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Друзья.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Друзья.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="82efb66d-d39a-4f41-8e70-4fcfde180533">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ca36f8b-3c9a-4851-9fe3-4ff72d9dfe35">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыДрузей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f48e5be-bdc4-4174-883f-871dff5612ec">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e793a392-4f9a-4b65-a0d2-af5854b9fa74">
+    <producedTypes>
+      <objectType typeId="a251544c-2511-413f-8c2c-fd175c04d0f4" valueTypeId="c568b988-198c-48d6-a883-c73b3796d7fa"/>
+      <rowType typeId="2160227a-fd27-4c44-a282-527374707104" valueTypeId="4a58bc9b-051e-4c8f-ab0e-88fa387e3bcc"/>
+    </producedTypes>
+    <name>Контакты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакты</value>
+    </synonym>
+    <attributes uuid="a3675da6-6cca-4b70-89a5-6dd45961adbf">
+      <name>Контакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bae946cc-baad-4650-9715-29a127a177c2">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
